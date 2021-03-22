@@ -52,7 +52,7 @@ namespace DIO
             Console.WriteLine("Escreva o nome do usuario: ");
             string Xnome = Console.ReadLine();
 
-            Console.WriteLine("pressione 0 para pessoa juridica e 1 para fisica: ");
+            Console.WriteLine("digite      false      para pessoa juridica, e    true    para fisica: ");
             bool Xpessoa_fisica = bool.Parse(Console.ReadLine());
 
             Console.WriteLine("Saldo inicial: ");
